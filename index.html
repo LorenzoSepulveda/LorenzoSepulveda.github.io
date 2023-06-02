@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lorenzo Sepulveda</title>
-    <link rel="icon" href="./assets/logo.jpg">
+    <link rel="icon" href="./assets/logo.jpg" />
     <link rel="stylesheet" href="style.css" />
     <script
       src="https://kit.fontawesome.com/535a34443f.js"
@@ -57,9 +57,8 @@
           <h1 class="title">Hey</h1>
           <h1 class="title blue">I'm Lorenzo.</h1>
           <p class="header__para">
-            I'm a <b class="blue">Frontend Developer</b> with a
-            strong passion for building web applications with great user
-            experiences.
+            I'm a <b class="blue">Fullstack Web Developer</b> with a strong passion
+            for building web applications with great user experiences.
             <br />
             Here's a bit more
             <b class="blue click" onclick="toggleModal()">about me</b>.
@@ -103,19 +102,18 @@
             Here's a bit about me.
           </h3>
           <h4 class="modal__sub-title modal__sub-title--about">
-            Frontend Developer
+            Fullstack Web Developer
           </h4>
           <p class="modal__para">
             I'm a 24-year-old
-            <b class="blue">professional frontend developer</b> with a strong
-            passion for developing websites with
+            <b class="blue">professional fullstack web developer</b> with a strong
+            passion for developing applications and websites with
             <b class="blue">great user experiences.</b>
             <br />
-            I'm currently working on perfecting my coding skills, working on personal projects
-            and learning 
+            I'm currently working on perfecting my coding skills, working on
+            personal projects and learning
             <b class="blue">Phyton</b>, <b class="blue">MySQL</b>,
-            <b class="blue">Javascript</b> and more
-            every day.
+            <b class="blue">React</b> and more every day.
           </p>
           <div class="modal__languages">
             <figure class="modal__language">
@@ -137,7 +135,7 @@
             <figure class="modal__language">
               <img
                 class="modal__language--img"
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png" 
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
                 alt=""
               />
               <span class="language__name">JavaScript</span>
@@ -149,6 +147,38 @@
                 alt=""
               />
               <span class="language__name">Photoshop</span>
+            </figure>
+            <figure class="modal__language">
+              <img
+                class="modal__language--img"
+                src="https://cdn.cdnlogo.com/logos/a/51/angular.svg"
+                alt=""
+              />
+              <span class="language__name">Angular</span>
+            </figure>
+            <figure class="modal__language">
+              <img
+                class="modal__language--img"
+                src="https://cdn.cdnlogo.com/logos/m/10/mysql.svg"
+                alt=""
+              />
+              <span class="language__name">MySQL</span>
+            </figure>
+            <figure class="modal__language">
+              <img
+                class="modal__language--img"
+                src="/assets/springboot.png"
+                alt=""
+              />
+              <span class="language__name">Spring Boot</span>
+            </figure>
+            <figure class="modal__language">
+              <img
+                class="modal__language--img"
+                src="https://cdn.cdnlogo.com/logos/g/69/github-icon.svg"
+                alt=""
+              />
+              <span class="language__name">GitHub</span>
             </figure>
           </div>
         </div>
@@ -183,12 +213,13 @@
               Send it my way
             </button>
           </form>
-          <script type="text/javascript"
-            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-          </script>
+          <script
+            type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+          ></script>
 
           <script type="text/javascript">
-            emailjs.init('NlMNbqEJNpZhkdsf8')
+            emailjs.init("NlMNbqEJNpZhkdsf8");
           </script>
           <div class="modal__overlay modal__overlay--loading">
             <i class="fa-solid fa-spinner"></i>
@@ -209,7 +240,6 @@
       <img src="./assets/semi circle.svg" class="shape shape--8" />
     </section>
 
-    <!-- Projects Section -->
     <section id="projects">
       <div class="container">
         <div class="row">
@@ -219,24 +249,102 @@
           <ul class="project__list">
             <li class="project">
               <div class="project__wrapper">
+                <img src="./assets/web-page.png" class="project__img" alt="" />
+                <div class="project__wrapper--bg"></div>
+                <div class="project__description">
+                  <h3 class="project__description--title">
+                    Fullstack Web Portfolio
+                  </h3>
+                  <h4 class="project__description--sub-title">
+                    Angular, SpringBoot, MySQL
+                  </h4>
+                  <p class="project__description--para">
+                    As the final project for a fullstack developer course, I developed a web
+                    application using Angular for the frontend, Spring Boot for
+                    the backend, and MySQL for the database.
+                    The project showcased my skills as a fullstack developer, dividing the
+                    frontend and backend components and hosting them separately.
+                    The Angular frontend was deployed using Firebase Hosting,
+                    providing a user-friendly interface with responsive design
+                    and interactive features. The Spring Boot backend utilized
+                    RESTful APIs to handle client requests, interact with the
+                    MySQL database, and implement business logic. The backend
+                    was hosted using Render, ensuring scalability and
+                    reliability.
+                    Overall, this project served as a comprehensive culmination of my
+                    fullstack developer course, showcasing my ability to develop
+                    functional and secure web applications.<br />
+                    You can see the repository clicking the button down below.
+                  </p>
+                  <div class="project__description--links">
+                    <a
+                      href="https://github.com/LorenzoSepulveda/portfolio-FRONTEND"
+                      class="project__description--link"
+                      target="_blank"
+                    >
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a
+                      href="https://github.com/LorenzoSepulveda/portfolio-BACKEND"
+                      class="project__description--link"
+                      target="_blank"
+                    >
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a
+                      href="https://frontend-prueba-b6123.web.app/"
+                      class="project__description--link"
+                      target="_blank"
+                    >
+                      <i class="fa-solid fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <div class="row">
+          <ul class="project__list">
+            <li class="project">
+              <div class="project__wrapper">
                 <img
-                  src="./assets/screenshot-tictactoe.png"
+                  src="./assets/calc-photo.png"
                   class="project__img"
                   alt=""
                 />
                 <div class="project__wrapper--bg"></div>
                 <div class="project__description">
-                  <h3 class="project__description--title">Tic Tac Toe Game</h3>
+                  <h3 class="project__description--title">Web Calculator</h3>
                   <h4 class="project__description--sub-title">
                     HTML, CSS, JavaScript
                   </h4>
                   <p class="project__description--para">
-                    I coded the Tic Tac Toe game using HTML, CSS and a little script with JS <br>
+                    In this project, I developed a fully functional web
+                    calculator using HTML, CSS, and JavaScript. The goal was to
+                    create a user-friendly and visually appealing calculator
+                    that could perform basic mathematical operations and provide
+                    accurate results. To begin, I utilized HTML to structure the
+                    calculator's layout and create the necessary elements, such
+                    as buttons, display screen, and input fields. CSS was
+                    employed to enhance the aesthetics of the calculator,
+                    ensuring a clean and intuitive design that aligns with
+                    modern web standards. The core functionality of the
+                    calculator was implemented using JavaScript, enabling the
+                    calculator to perform arithmetic operations. By leveraging
+                    JavaScript's mathematical functions and operators, I ensured
+                    accurate computation of addition, subtraction,
+                    multiplication, and division. <br />
                     You can see the repository clicking the button down below.
                   </p>
                   <div class="project__description--links">
                     <a
-                      href="https://github.com/LorenzoSepulveda/Tic-Tac-Toe"
+                      href="https://github.com/LorenzoSepulveda/Web-Calculator"
                       class="project__description--link"
                       target="_blank"
                     >
@@ -258,7 +366,52 @@
             <li class="project">
               <div class="project__wrapper">
                 <img
-                  src="./assets/screenshot-snake.png"
+                  src="./assets/MorseCodeTranslator.png"
+                  class="project__img"
+                  alt=""
+                />
+                <div class="project__wrapper--bg"></div>
+                <div class="project__description">
+                  <h3 class="project__description--title">
+                    Morse Code Translator
+                  </h3>
+                  <h4 class="project__description--sub-title">
+                    HTML, CSS, JavaScript
+                  </h4>
+                  <p class="project__description--para">
+                    In this project, I developed a Morse Code translator using
+                    HTML, CSS, JavaScript, and the localStorage API. The goal
+                    was to create a web application that allows users to convert
+                    text into Morse Code, while also providing the ability to
+                    store and retrieve translation history using the
+                    localStorage API. <br />
+                    You can see the repository clicking the button down below.
+                  </p>
+                  <div class="project__description--links">
+                    <a
+                      href="https://github.com/LorenzoSepulveda/Morse-Code-Translator"
+                      class="project__description--link"
+                      target="_blank"
+                    >
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <div class="row">
+          <ul class="project__list">
+            <li class="project">
+              <div class="project__wrapper">
+                <img
+                  src="./assets//screenshot-snake.png"
                   class="project__img"
                   alt=""
                 />
@@ -269,9 +422,24 @@
                     HTML, CSS, JavaScript
                   </h4>
                   <p class="project__description--para">
-                    I coded a simple Snake game using HTML, CSS and JavaScript <br>
+                    In this project, I created a classic Snake game using HTML,
+                    CSS, and JavaScript. The aim was to develop an interactive
+                    and entertaining gaming experience where players control a
+                    snake to eat food and grow longer while avoiding collisions
+                    with walls or the snake's own body. The game's structure was
+                    built using HTML, providing a canvas element where the
+                    gameplay would take place. CSS was utilized to style the
+                    game canvas and create a visually appealing environment,
+                    including the snake's appearance, food, and background
+                    design. By combining colors, animations, and transitions, I
+                    aimed to enhance the game's aesthetics and engage the
+                    player. The game's functionality and interactivity were
+                    implemented using JavaScript. I used JavaScript to handle
+                    key events, allowing players to control the snake's movement
+                    using arrow keys or other designated controls. I managed the
+                    snake's position and direction, updating it based on user
+                    input or predefined game logic. <br />
                     You can see the repository clicking the button down below.
-                    Feel free to download the code to play the game and make your own improvements.
                   </p>
                   <div class="project__description--links">
                     <a
@@ -289,7 +457,48 @@
         </div>
       </div>
     </section>
-    <!-- Projects Section End -->
+
+    <section id="projects">
+      <div class="container">
+        <div class="row">
+          <ul class="project__list">
+            <li class="project">
+              <div class="project__wrapper">
+                <img
+                  src="./assets/screenshot-tictactoe.png"
+                  class="project__img"
+                  alt=""
+                />
+                <div class="project__wrapper--bg"></div>
+                <div class="project__description">
+                  <h3 class="project__description--title">Tic Tac Toe Game</h3>
+                  <h4 class="project__description--sub-title">
+                    HTML, CSS, JavaScript
+                  </h4>
+                  <p class="project__description--para">
+                    In this project, I designed and developed a classic
+                    Tic-Tac-Toe game using HTML, CSS, and JavaScript. The
+                    objective was to create an interactive and enjoyable gaming
+                    experience that allows players to compete against each other
+                    in the popular game of Tic-Tac-Toe. <br />
+                    You can see the repository clicking the button down below.
+                  </p>
+                  <div class="project__description--links">
+                    <a
+                      href="https://github.com/LorenzoSepulveda/Tic-Tac-Toe"
+                      class="project__description--link"
+                      target="_blank"
+                    >
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
     <footer>
       <div class="container">
@@ -334,32 +543,35 @@
             </a>
           </div>
           <div class="footer__copyright">
-            Copyright &copy; Lorenzo Sepulveda 2022
+            Copyright &copy; Lorenzo Sepulveda 2023
           </div>
         </div>
       </div>
     </footer>
   </body>
   <script>
-    const btn = document.getElementById('button');
+    const btn = document.getElementById("button");
 
-    document.getElementById('form')
-      .addEventListener('submit', function(event) {
-      event.preventDefault();
+    document
+      .getElementById("form")
+      .addEventListener("submit", function (event) {
+        event.preventDefault();
 
-    btn.value = 'Sending...';
+        btn.value = "Sending...";
 
-    const serviceID = 'default_service';
-    const templateID = 'template_15un0zh';
+        const serviceID = "default_service";
+        const templateID = "template_15un0zh";
 
-    emailjs.sendForm(serviceID, templateID, this)
-    .then(() => {
-      btn.value = 'Send Email';
-      alert('Sent!');
-    }, (err) => {
-      btn.value = 'Send Email';
-      alert(JSON.stringify(err));
+        emailjs.sendForm(serviceID, templateID, this).then(
+          () => {
+            btn.value = "Send Email";
+            alert("Sent!");
+          },
+          (err) => {
+            btn.value = "Send Email";
+            alert(JSON.stringify(err));
+          }
+        );
       });
-    });
   </script>
 </html>

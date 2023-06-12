@@ -30,8 +30,8 @@ function contact(event) {
   loading.classList += " modal__overlay--visible"
   emailjs
     .sendForm(
-      "service_ixruf82",
-      "template_hdrdoj8",
+      "service_nsmbo9i",
+      "template_15un0zh",
       event.target,
       ""
     )

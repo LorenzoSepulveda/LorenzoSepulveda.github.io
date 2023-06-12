@@ -366,6 +366,58 @@
             <li class="project">
               <div class="project__wrapper">
                 <img
+                  src="./assets/screenshot-memotest.png"
+                  class="project__img"
+                  alt=""
+                />
+                <div class="project__wrapper--bg"></div>
+                <div class="project__description">
+                  <h3 class="project__description--title">Card MemoTest</h3>
+                  <h4 class="project__description--sub-title">
+                    HTML, CSS, JavaScript
+                  </h4>
+                  <p class="project__description--para">
+                    The Card Memory Test is an interactive web-based game
+                    designed to challenge and improve players' memory and
+                    concentration skills. Built using HTML, CSS, and JavaScript,
+                    this game presents players with a grid of cards facing down.
+                    The objective is to uncover and match pairs of cards by
+                    flipping them over, testing the player's ability to remember
+                    the card's position and find the matching pairs.<br />
+                    You can see the repository or play the game clicking the
+                    button down below.
+                  </p>
+                  <div class="project__description--links">
+                    <a
+                      href="https://github.com/LorenzoSepulveda/Memory-TestGame"
+                      class="project__description--link"
+                      target="_blank"
+                    >
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a
+                      href="https://memory-game-ls.netlify.app/"
+                      class="project__description--link"
+                      target="_blank"
+                    >
+                      <i class="fa-solid fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <div class="row">
+          <ul class="project__list">
+            <li class="project">
+              <div class="project__wrapper">
+                <img
                   src="./assets/screenshot-simon.png"
                   class="project__img"
                   alt=""
@@ -377,19 +429,20 @@
                     HTML, CSS, JavaScript
                   </h4>
                   <p class="project__description--para">
-                    In this project I developed a fun game from my childhood. The
-                    Simon Memory Game is a classic electronic memory game
+                    In this project I developed a fun game from my childhood.
+                    The Simon Memory Game is a classic electronic memory game
                     brought to life as a web-based application. This engaging
                     game challenges players to test their memory and pattern
                     recognition skills by replicating sequences of colors and
                     sounds. Built using HTML, CSS, and JavaScript, the game
                     provides an interactive and enjoyable experience for players
                     of all ages. <br />
-                    You can see the repository or play the game clicking the button down below.
+                    You can see the repository or play the game clicking the
+                    button down below.
                   </p>
                   <div class="project__description--links">
                     <a
-                      href="https://github.com/LorenzoSepulveda/Web-Calculator"
+                      href="https://github.com/LorenzoSepulveda/SimonMemoryGame"
                       class="project__description--link"
                       target="_blank"
                     >
@@ -611,7 +664,7 @@
 
         btn.value = "Sending...";
 
-        const serviceID = "default_service";
+        const serviceID = "service_nsmbo9i";
         const templateID = "template_15un0zh";
 
         emailjs.sendForm(serviceID, templateID, this).then(
